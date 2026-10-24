@@ -41,6 +41,8 @@ jobs:
           path: public
 
   deploy:
+    # Forks can build the docs artifact, but Pages deployment is owner-configured upstream.
+    if: ${{ !github.event.repository.fork }}
     needs: build
     runs-on: ubuntu-latest
     environment:
