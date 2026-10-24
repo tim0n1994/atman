@@ -29,6 +29,9 @@
 
 ---
 
+> **Fork notice:** This repository is a fork of [W-Mai/atman](https://github.com/W-Mai/atman). The upstream project, license, and identity remain intact; this fork records local CI and integration work.
+
+
 <a id="quickstart"></a>
 
 ### Installation
